@@ -1,0 +1,307 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-image: url(../images/green_dust_scratch/green_dust_scratch.png);
+    overflow: auto;
+    background-size: cover;
+    
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+#heading {
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+#container {
+    background-color: #ffffff;
+    max-width: 960px;
+    margin: 0 auto;
+    overflow: hidden;    
+}
+
+#innercontainer {
+    background-color: #4aaaa5;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navbar {
+    float: right;
+    padding-top: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar li {
+    display: inline-block;
+    padding-right: 25px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #777777;
+}
+
+li a:hover {
+    color: #4aaaa5;
+}
+
+.border-left {
+    border-left: 1px solid;
+    padding-left: 30px;
+}
+
+.flex-wrapper {
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#content {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+#maincontent {
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: hidden;
+}
+
+#containsh2 {
+    border-bottom: 3px solid #dddddd;
+    margin-bottom: 25px;
+}
+
+h2 {
+    color: #4aaaa5;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#profile {
+    width: 25%;
+    height: 25%;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #777777;
+    text-indent: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #666666;
+    padding: 20px;
+    border-top: 8px solid #4aaaa5;
+    margin-top: 75px; 
+    position: sticky;
+    width: 100%;
+    bottom: 0;
+}
+
+.copyright {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: x-small;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* CSS specific to contact.html */
+
+form {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input {
+    width: 914px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px solid #dddddd;   
+}
+
+#message {
+    height: 250px;
+    width: 914px;
+    resize: vertical;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px solid #dddddd
+}
+
+#button {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin-bottom: 25px;
+    height: 30px;
+    width: 100px;
+}
+
+#button:hover {
+    background-color: #777777;
+}
+
+.grabber {
+    resize: vertical;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* CSS specific to Portfolio.html */
+
+img {
+    height: 200px;
+    width: 250px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+h3 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    width: 250px;
+    padding: 15px;
+}
+
+.image {
+    float:left;
+}
+
+.imageClear {
+    clear: left;
+    float: left;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    top: 50%;
+}
+
+
+/* body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.topNav {
+    height: 75px;
+    
+}
+
+.topNav .name {
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    height: inherit;
+}
+
+.h1Nav{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.nav ul {
+    float: right;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav li {
+    display: inline-block;
+    margin-left: 50px;
+    padding-top: 10px;
+    position: relative;
+}
+
+.borderLeft {
+    border-left: 1px solid #777777;
+    padding-left: 60px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #777777;
+}
+
+li a:hover {
+    color: #777777;
+    background-color: #4aaaa5;
+}
+
+.background {
+    background-color: #777777;
+    border-top: 1px solid gray;
+}
+
+.container { 
+    max-width: 960px;
+    background-color:#ffffff;
+    margin: auto;
+    height: 75%;
+}
+
+.mainContent {
+    margin: 25px;
+    overflow: auto;
+}
+
+.h1About { 
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 2px solid #dddddd;
+    height: 60px;
+}
+
+p { 
+    clear: both;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 50px;
+}
+
+.bottomNav {
+    height: 40px;
+    width: 100%;
+    background-color: #666666;
+    border-top: 7px solid #4aaaa5;
+    margin-top: 25px;
+    position: sticky;
+    bottom: 0;
+} */
